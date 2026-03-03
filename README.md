@@ -62,9 +62,10 @@ The GUI is implemented using Python’s built-in tkinter library and does not re
 ### 🔹 How to Run the GUI
 
 From the project root directory:
-
-python gui.py   `
-
+```sh
+python gui.py   
+```
 Or, if using Spyder:
-
-%run gui.py   `
+```sh
+%run gui.py   
+```
