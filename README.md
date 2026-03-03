@@ -28,3 +28,43 @@ The project contains three main files. lrfhss_core.py contains the the main clas
 Two other files provide simulator extensions. The file traffic.py implements different types of traffic generators to be used by Node objects. Finally, acrda.py implements a new version of the Base (base station) class to implement the ACRDA receiver/decoder.
 
 Plots were made with the [SciencePlots](https://github.com/garrettj403/SciencePlots) library.
+
+Graphical User Interface (GUI)
+------------------------------
+
+A simple graphical interface has been added to facilitate interactive experimentation with the LR-FHSS simulator.
+
+The GUI allows users to:
+
+*   Configure the number of nodes
+    
+*   Set the simulation time
+    
+*   Select the number of header replicas
+    
+*   Choose the coding rate
+    
+*   Select the base station type (core or acrda)
+    
+*   Run simulations interactively
+    
+*   Display key performance metrics:
+    
+    *   Success ratio
+        
+    *   Goodput (payload units)
+        
+    *   Number of transmitted packets
+        
+
+The GUI is implemented using Python’s built-in tkinter library and does not require additional dependencies.
+
+### 🔹 How to Run the GUI
+
+From the project root directory:
+
+Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   python gui.py   `
+
+Or, if using Spyder:
+
+Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   %run gui.py   `
